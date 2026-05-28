@@ -1,2 +1,2 @@
-# Indonesian-Protest-Discourse
-All files that has been used for all analysis and collected datasets (.csv) and (.ipynb)
+# Who Carries the Message? Mapping the Hidden Infrastructure of Grassroots Solidarity in Indonesia's 2025 Digital Protest Networks
+The repository is shared to ensure transparency, reproducibility, and verification of our findings in accordance with the journal's data availability policy. By combining **Social Network Analysis (SNA)** and **Topic Modeling (BERTopic)**, the provided pipeline reconstructs how narrative shifts in protest discourse drive cross-community diffusion in fragmented digital networks.
