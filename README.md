@@ -75,42 +75,42 @@ Indonesian-Protest-Network/
 
 The notebooks in `data-analysis/` implement a sequential computational pipeline. Each notebook corresponds to a distinct methodological stage described in Section 3 of the manuscript.
 
-### Stage 1 — Thematic Modeling via BERTopic
+### Stage 1 - Thematic Modeling via BERTopic
 **Notebook:** `BERTopic: Linking Diffusion Depth to Topic Change`
 
 Identifies thematic structure using BERTopic with Indonesian sentence-BERT embeddings (`firqaaa/indo-sentence-bert-base`), UMAP dimensionality reduction, and HDBSCAN clustering. Produces 19 coherent topics with temporal distributions used to define the pre-shift (August 1–26) and post-shift (August 28–September 29) windows. Computes a composite diffusion score per narrative topic.
 
-### Stage 2 — Network Graph Construction
+### Stage 2 - Network Graph Construction
 **Notebook:** `Network Graph Construction`
 
 Constructs a directed weighted graph where nodes represent accounts and edges represent retweets, quote tweets, and replies. Output: 11,426 nodes, 13,994 directed edges.
 
-### Stage 3 — Community Detection
+### Stage 3 - Community Detection
 **Notebook:** `Community Detection`
 
 Applies the Louvain algorithm to detect community structure. Output: 1,667 communities, modularity = 0.7991.
 
-### Stage 4 — Social Penetration Metrics
+### Stage 4 - Social Penetration Metrics
 **Notebook:** `Social Penetration Metrics`
 
 Computes cross-community penetration metrics including community porosity, hop depth per cascade, and inter-community edge ratios across pre- and post-shift temporal windows.
 
-### Stage 5 — Excitation Effect & Narrative Shift Trigger (Steps 1–2)
+### Stage 5 - Excitation Effect & Narrative Shift Trigger (Steps 1–2)
 **Notebook:** `Excitation Effect & Narrative Shift Trigger (Steps 1–2)`
 
 Reconstructs cascade sequences in chronological order using timestamped interaction events matched to BERTopic-assigned topics. Computes engagement velocity and temporal excitation patterns.
 
-### Stage 6 — Excitation Effect & Narrative Shift Trigger (Steps 3–4)
+### Stage 6 - Excitation Effect & Narrative Shift Trigger (Steps 3–4)
 **Notebook:** `Excitation Effect & Narrative Shift Trigger (Steps 3–4)`
 
 Performs statistical integration of cascade components and formally computes the Excitation Index (EI) as the unweighted mean of four z-scored indicators: mean diffusion score, maximum hop depth, mean hop depth, and post-shift median engagement per tweet.
 
-### Stage 7 — Actor Role Analysis
+### Stage 7 - Actor Role Analysis
 **Notebook:** `Actor Role Analysis`
 
-Classifies each account into one of three structural roles — Attention Sink, Local Amplifier, or Diffusion Driver — based on in-degree to out-degree ratio and cross-community edge count. Includes Spearman correlation between engagement and structural reach.
+Classifies each account into one of three structural roles: Attention Sink, Local Amplifier, or Diffusion Driver based on in-degree to out-degree ratio and cross-community edge count. Includes Spearman correlation between engagement and structural reach.
 
-### Stage 8 — Cross-Community Penetration & Cognitive Fusion
+### Stage 8 - Cross-Community Penetration & Cognitive Fusion
 **Notebook:** `Cross-Community Penetration & Cognitive Fusion`
 
 Computes community porosity at paired temporal windows and the Cognitive Fusion Index (CFI) as the unweighted mean of four z-scored structural indicators: maximum hop depth, mean hop depth, post-shift porosity, and unique inter-community dyads. Includes Wilcoxon signed-rank test and CFI sensitivity analysis under four alternative weighting schemes.
