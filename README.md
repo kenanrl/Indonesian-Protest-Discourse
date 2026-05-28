@@ -16,7 +16,7 @@ This repository contains the anonymized dataset and Python analytical notebooks 
 > School of Economics and Business, Telkom University, Bandung, Indonesia
 > *(Submitted to Social Sciences & Humanities Open, Elsevier)*
 
-The repository is shared to ensure transparency and reproducibility in accordance with the journal's data availability policy. The analytical pipeline combines network analysis (Louvain community detection, cascade depth tracking), BERTopic-based thematic modeling, and novel composite metrics — the Excitation Index and Cognitive Fusion Index (CFI) — to examine how protest narratives diffused across structurally fragmented communities on platform X during the Indonesian civic unrest of August–September 2025.
+The repository is shared to ensure transparency and reproducibility in accordance with the journal's data availability policy. The analytical pipeline combines network analysis (Louvain community detection, cascade depth tracking), BERTopic-based thematic modeling, and novel composite metrics, the Excitation Index and Cognitive Fusion Index (CFI) to examine how protest narratives diffused across structurally fragmented communities on platform X during the Indonesian civic unrest of August-September 2025.
 
 ---
 
@@ -38,17 +38,17 @@ Indonesian-Protest-Discourse/
 │
 ├── data-analysis/
 │   ├── BERTopic: Linking Diffusion Depth to Topic Change          ← Composite diffusion score per topic
-│   ├── Network Graph Construction                                  ← Directed interaction network construction
-│   ├── Community Detection                                         ← Louvain community detection
-│   ├── Social Penetration Metrics                                  ← Cross-community penetration metrics
+│   ├── Network Graph Construction                                 ← Directed interaction network construction
+│   ├── Community Detection                                        ← Louvain community detection
+│   ├── Social Penetration Metrics                                 ← Cross-community penetration metrics
 │   ├── Excitation Effect & Narrative Shift Trigger (Steps 1–2)    ← Temporal excitation & engagement velocity
 │   ├── Excitation Effect & Narrative Shift Trigger (Steps 3–4)    ← Statistical integration & cascade trigger
-│   ├── Actor Role Analysis                                         ← Actor role classification (sink vs driver)
+│   ├── Actor Role Analysis                                        ← Actor role classification (sink vs driver)
 │   └── Cross-Community Penetration & Cognitive Fusion             ← Community porosity & CFI computation
 │
-├── CITATION.cff                                                    ← Citation metadata
-├── LICENSE                                                         ← Creative Commons Attribution 4.0 License
-└── README.md                                                       ← This file
+├── CITATION.cff                                                   ← Citation metadata
+├── LICENSE                                                        ← Creative Commons Attribution 4.0 License
+└── README.md                                                      ← This file
 ```
 
 ---
@@ -109,8 +109,6 @@ Reconstructs cascade sequences in chronological order using timestamped interact
 
 Performs statistical integration of cascade components and formally computes the Excitation Index (EI) as the unweighted mean of four z-scored indicators: mean diffusion score, maximum hop depth, mean hop depth, and post-shift median engagement per tweet.
 
-$$EI_i = \frac{1}{4} \sum_{k=1}^{4} z(x_{ki})$$
-
 ### Stage 7 — Actor Role Analysis
 **Notebook:** `Actor Role Analysis`
 
@@ -120,8 +118,6 @@ Classifies each account into one of three structural roles — Attention Sink, L
 **Notebook:** `Cross-Community Penetration & Cognitive Fusion`
 
 Computes community porosity at paired temporal windows and the Cognitive Fusion Index (CFI) as the unweighted mean of four z-scored structural indicators: maximum hop depth, mean hop depth, post-shift porosity, and unique inter-community dyads. Includes Wilcoxon signed-rank test and CFI sensitivity analysis under four alternative weighting schemes.
-
-$$CFI_i = \frac{1}{4} \sum_{k=1}^{4} z(x_{ki})$$
 
 ---
 
