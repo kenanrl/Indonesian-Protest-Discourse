@@ -3,7 +3,6 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Platform: X (Twitter)](https://img.shields.io/badge/Platform-X%20(Twitter)-black)](https://x.com)
 [![Period: Aug–Sep 2025](https://img.shields.io/badge/Period-August–September%202025-blue)]()
-[![Journal: SSHO](https://img.shields.io/badge/Journal-Social%20Sciences%20%26%20Humanities%20Open-orange)]()
 
 ---
 
