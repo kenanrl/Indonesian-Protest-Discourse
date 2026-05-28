@@ -12,9 +12,6 @@
 This repository contains the anonymized dataset and Python analytical notebooks used in the research manuscript:
 
 > **"Who Carries the Message? Mapping the Hidden Infrastructure of Grassroots Solidarity in Indonesia's 2025 Digital Protest Networks"**
-> *Keinan Lidzikri Rahmandika, Dian Puteri Ramadhani, Andry Alamsyah*
-> School of Economics and Business, Telkom University, Bandung, Indonesia
-> *(Submitted to Social Sciences & Humanities Open, Elsevier)*
 
 The repository is shared to ensure transparency and reproducibility in accordance with the journal's data availability policy. The analytical pipeline combines network analysis (Louvain community detection, cascade depth tracking), BERTopic-based thematic modeling, and novel composite metrics, the Excitation Index and Cognitive Fusion Index (CFI) to examine how protest narratives diffused across structurally fragmented communities on platform X during the Indonesian civic unrest of August-September 2025.
 
