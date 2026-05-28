@@ -27,7 +27,7 @@ The dataset provided in this repository has been processed to comply with platfo
 ## Repository Structure
 
 ```
-Indonesian-Protest-Discourse/
+Indonesian-Protest-Network/
 │
 ├── main-data/
 │   └── raw-data-hashed.csv                                        ← Anonymized tweet dataset
@@ -147,14 +147,6 @@ The dataset and code in this repository are shared under [Creative Commons Attri
 You are free to share and adapt the material for any purpose, provided appropriate credit is given.
 
 > **Note:** This dataset is derived from X (formerly Twitter). Users of this data are responsible for complying with [X's Terms of Service](https://x.com/en/tos) and applicable data protection regulations.
-
----
-
-## Citation
-
-If you use this dataset or code in your research, please cite the manuscript as listed in `CITATION.cff` or use the following reference:
-
-> Rahmandika, K. L., Ramadhani, D. P., & Alamsyah, A. (2025). Who carries the message? Mapping the hidden infrastructure of grassroots solidarity in Indonesia's 2025 digital protest networks. *Social Sciences & Humanities Open*. [DOI pending]
 
 ---
 
