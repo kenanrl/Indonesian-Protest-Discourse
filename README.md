@@ -30,19 +30,20 @@ The dataset provided in this repository has been processed to comply with platfo
 Indonesian-Protest-Network/
 │
 ├── main-data/
-│   └── raw-data-hashed.csv                                        ← Anonymized tweet dataset
+│   └── raw-data-hashed.csv                                                    ← Anonymized tweet dataset
 │
 ├── data-analysis/
-│   ├── BERTopic: Linking Diffusion Depth to Topic Change          ← Composite diffusion score per topic
-│   ├── Network Graph Construction                                 ← Directed interaction network construction
-│   ├── Community Detection                                        ← Louvain community detection
-│   ├── Social Penetration Metrics                                 ← Cross-community penetration metrics
-│   ├── Excitation Effect & Narrative Shift Trigger (Steps 1–2)    ← Temporal excitation & engagement velocity
-│   ├── Excitation Effect & Narrative Shift Trigger (Steps 3–4)    ← Statistical integration & cascade trigger
-│   ├── Actor Role Analysis                                        ← Actor role classification (sink vs driver)
-│   └── Cross-Community Penetration & Cognitive Fusion             ← Community porosity & CFI computation
+│   ├── data-analysis/BERTopic Setup.ipynb                                     ← Topic modeling on protest tweets
+│   ├── BERTopic: Linking Diffusion Depth to Topic Change.ipynb                ← Composite diffusion score per topic
+│   ├── Network Graph Construction.ipynb                                       ← Directed interaction network construction
+│   ├── Community Detection.ipynb                                              ← Louvain community detection
+│   ├── Social Penetration Metrics.ipynb                                       ← Cross-community penetration metrics
+│   ├── Excitation Effect & Narrative Shift Trigger (Steps 1 and 2).ipynb      ← Temporal excitation & engagement velocity
+│   ├── Excitation Effect & Narrative Shift Trigger (Steps 3 and 4).ipynb      ← Statistical integration & cascade trigger
+│   ├── Actor Role Analysis.ipynb                                              ← Actor role classification (sink vs driver)
+│   └── Cross-Community Penetration & Cognitive Fusion.ipynb                   ← Community porosity & CFI computation
 │
-├── CITATION.cff                                                   ← Citation metadata
+├── CITATION.cff                                                               ← Citation metadata
 ├── LICENSE                                                        ← Creative Commons Attribution 4.0 License
 └── README.md                                                      ← This file
 ```
