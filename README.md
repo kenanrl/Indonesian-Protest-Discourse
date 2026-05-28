@@ -44,8 +44,8 @@ Indonesian-Protest-Network/
 │   └── Cross-Community Penetration & Cognitive Fusion.ipynb                   ← Community porosity & CFI computation
 │
 ├── CITATION.cff                                                               ← Citation metadata
-├── LICENSE                                                        ← Creative Commons Attribution 4.0 License
-└── README.md                                                      ← This file
+├── LICENSE                                                                    ← Creative Commons Attribution 4.0 License
+└── README.md                                                                  ← This file
 ```
 
 ---
