@@ -153,7 +153,7 @@ You are free to share and adapt the material for any purpose, provided appropria
 
 ## Contact
 
-For questions about the dataset or analytical notebooks, please open a [GitHub Issue](../../issues) or contact the corresponding author at `keinanlidzikri@student.telkomuniversity.ac.id`.
+For questions about the dataset or analytical notebooks, please open a [GitHub Issue](../../issues) or contact the corresponding author as listed in the manuscript.
 
 ---
 
