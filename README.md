@@ -54,8 +54,7 @@ Indonesian-Protest-Network/
 
 **Collection period:** August 1 – September 29, 2025  
 **Platform:** X (formerly Twitter)  
-**Language:** Bahasa Indonesia  
-**Collection method:** Keyword-based retrospective queries targeting 12 protest-related hashtags and terms (e.g., `IndonesiaGelap`, `JusticeForAffan`, `BubarkanDPR`, `ACAB`, `demo dpr`)
+**Language:** Bahasa Indonesia
 
 | File | Description |
 |---|---|
